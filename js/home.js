@@ -9,4 +9,9 @@ document.getElementById('btn-add-money')
     });
 
     // step-2: get money to be added to the account
-    const addMoneyInput = 
+    const addMoneyInput = document.getElementById('input-add-money').ariaValueMax;
+    console.log(addMoneyInput);
+
+    // get the pin number provided
+    const pinNumberInput = document.getElementById('input-pin-number').value;
+    console.log(pinNumberInput);
